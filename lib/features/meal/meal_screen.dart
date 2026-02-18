@@ -117,15 +117,11 @@ class MealScreen extends ConsumerWidget {
           ),
         ],
       ),
-      floatingActionButton: FloatingActionButton.extended(
+      floatingActionButton: FloatingActionButton(
         onPressed: () => context.push('/add-meal'),
-        icon: const Icon(Icons.add_rounded),
-        label: const Text(
-          '식단 추가',
-          style: TextStyle(fontWeight: FontWeight.w600),
-        ),
         backgroundColor: AppColors.primary,
         foregroundColor: Colors.white,
+        child: const Icon(Icons.add_rounded),
       ),
     );
   }
