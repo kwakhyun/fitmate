@@ -14,4 +14,4 @@ flutter_native_splash:
 
   ios: true
   web: false
-  fullscreen: true
+  fullscreen: false
